@@ -513,6 +513,42 @@ a.btn {
     }
 }
 
+@media (max-width: 992px) {
+  .contact-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .section-header h1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Celulares */
+@media (max-width: 600px) {
+  .contact-section {
+    padding: 20px;
+    border-radius: 12px;
+  }
+
+  .section-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .section-header p {
+    font-size: 0.9rem;
+  }
+
+  .info-icon {
+    font-size: 1.5rem;
+  }
+
+  .submit-btn {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+}
+
 .company-logo {
     text-align: center;
     margin-bottom: 20px;
